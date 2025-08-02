@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+ <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/output.css">
+    <script  type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function (){
+            emailjs.init("UJtrUyK9lsn5sGT9b");
+        })();
+    </script>
+    <title>ATOBATELE MARCUS</title>
+    
+</head>
+<body class="bg-black h-screen items-center justify-center w-full">
+    <div class="flex flex-col w-full">
+        <!--TOP BAR FOR LARGE SCREENS-->
+        <div class="hidden md:flex flex-row bg-white md:justify-between">
+            <h1 class="text-lg text-pink-600 m-4" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">ATOBATELE MARCUS</h1>
+            <div class="flex flex-row justify-evenly gap-8 m-4">
+                <button class="text-sm font-serif text-pink-600 font-bold" onclick="About()"> ABOUT ME</button>
+                <button class="text-sm font-serif text-pink-600 font-bold" onclick="Pro()"> MY PROJECT</button>
+                 <button class="text-sm font-serif text-pink-600 font-bold" onclick="Resume()"> RESUME</button>
+                <button class="text-sm font-serif text-pink-600 font-bold">CONTACT</button> </div>
+        </div>
+        <div class="flex flex-row justify-between w-full  md:hidden">
+             <div class="md:hidden flex flex-row w-full justify-between">
+            <h1 class="text-lg text-pink-600 m-4" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">ATOBATELE MARCUS</h1>
+            <button class="m-4 text-pink-600 bg-pink-400 hover:bg-red-400" id="openbtn">
+                <img src="../asset/align-justify.png" alt="image" class="w-8 h-8">
+             </button>
+        </div>
+            <!--side bar for small screen-->
+            <div class="h-100 bg-pink-400 z-1000 top-0 left-0 fixed justify-center items-center container md:hidden max-w-full" id="sidebar" style="display:none; overflow:hidden;">
+                <button id="closebtn" class="absolute top-0 right-0 w-8 h-8 border" style="border-color: rgb(139, 17, 37);">X</button>
+                <div class="flex flex-col text-center font-extrabold bg-white text-pink-600  items-center rounded-xl m-8">
+                <h1 class= "py-2 px-4"onclick="About()">About Me</h1>
+                <h1 class="py-2 px-4" onclick="Resume()"> Resume</h1>
+                <h1 class="py-2 px-4" onclick="Pro()" id="projet">Project</h1>
+                <h1 class="py-2 px-4" onclick="contact()"> Contact</h1>
+                </div>
+                      
+                
+            </div>
+           </div>
+<div class="h-120 rounded-xl bg-gray-100 shadow-2xl flex flex-col items-center m-4 justify-center">
+    <h1 class="underline decoration-pink-600 text-pink-600 text-center text-xl mb-4 ">HELLO</h1>
+    <h1 class="text-black font-extrabold text-center text-2xl" style="font-family: Verdana, Geneva, Tahoma, sans-serif;" id="target"> <span class="text-2xl font-extrabold text-pink-600"></span></h1>
+    <h1 class="underline decoration-pink-600 text-black text-center text-xl mt-2">a Frontend developer and a Data analyst</h1>
+    <h1 class="text-black font-md font-bold items-center text-sm justify-center text-center m-8" stlye="font-family: Verdana, Geneva, Tahoma, sans-serif;" id="pretext"></h1>
+<button class="w-69 h-14 px-4 bg-pink-600 text-white  hover:bg-red-600 text-lg font-extrabold rounded-xl mb-2" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">View my work</button>
+<button class="w-69 h-14 px-4 bg-gray-300 text-black  hover:bg-pink-600 text-lg font-extrabold rounded-xl border " style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Get in touch</button>
+    <div class="flex flex-row items-center bg-pink-200 justify-center m-4 gap-4">
+        <button  class="w-10 h-10 rounded-full"><a href="https://atobatelemarcus.github.io"><img src="../asset/github.png" alt="" class="w-10 h-10"></a></button>
+        <a href="https://wa.me/2347044592369"><img src="../asset/whatsapp (1).png" alt="whatsapp" class="w-10 h-10"></a>
+        <a href="https://www.linkedin.com/in/atobatele-marcus-19947121b?utm_source"><img src="../asset/linkedin.png" alt="linkedin" class="w-10 h-10"></a>
+    </div>
+</div>
+<section class="bg-pink-400 items-center justify-center m-4 rounded-xl">
+<button class="w-30 h-10 bg-white text-black font-bold rounded-2xl shadow-2xl text-sm border m-8" style="font-family: Verdana, Geneva, Tahoma, sans-serif;" id="About"> 01 About me</button>
+<h1  class="text-xl text-black font-bold mx-8 my-4" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Get to know the man behind the <span class="text-pink-600 font-bold">Projects</span></h1>
+<div class="bg-gray-100 rounded-xl w-full overflow-hidden">
+    <p class="text-black  text-justify justify-center m-4">
+        My  love for technology and digital skill was not only because i had a solid background in mechanical engineering,
+         But also because i knew the world is going towards digitalization; where by machines operates on automation and logic of any kind.
+          Therefore, i decided to pursue training as a data analyst and a front end developer, i am always enthusiastic to solve problems related to these areas.
+        .I have learnt a lot that solving everyone's problem either through data analytics and visualization or building a seamless running website is more essential  than just a colourful visual or web pages
+   I focus on creating functional , responsive, and accessible web experience  that feels intuitive to use- regrdless of device,browser,or ability. Also, i analyse data of every industry, with visual aid and an exclusive report i help business make the right decisions towards growth
+   Along the way, i have explored training, buiding projects, and technical supports, which gave me deeper appreciation for performance, accessibility and real world usability
+   i am always learning, building and looking for better way to solve problems. Aside writing codes or analysing datas, i love writing on science, technology,education, art and mathematics
+   </p>
+</div>
+<h1 class="text-2xl font-extrabold text-center text-black m-6" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Technologies i work with</h1>
+<!--for smaller screens-->
+<div class="flex flex-col md:hidden">
+    <div class="m-8 flex flex-row gap-8 justify-center">
+         <button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-35 h-10 font-bold">HTML</button>
+        <button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-35 h-10 font-bold">CSS</button>
+    </div> 
+     <div class="m-8 flex flex-row gap-8 justify-center">
+        <button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-35 h-10 font-bold">JavaScript </button>
+        <button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-35 h-10 font-bold">React.js</button>
+     </div>
+     <div class="m-8 flex flex-row gap-8 justify-center">
+       <button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-35 h-10 font-bold">Tailwind css</button>
+        <button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-35 h-10 font-bold">Power BI</button> 
+     </div>
+      <div class="m-8 flex flex-row gap-8 justify-center">
+       <button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-35 h-10 font-bold">Python</button>
+       <button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-35 h-10 font-bold">SQL</button>
+    </div>
+    <div class="m-8 flex flex-row gap-8 justify-center">
+        <button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-35 h-10 font-bold">Microsoft Excel</button>
+       <button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-35 h-10 font-bold">Google Sheet</button>
+    </div>
+
+</div>
+<!--larger screens-->
+<div class="hidden md:flex flex-col">
+    <div class="hidden m-8 md:flex flex-row gap-8 justify-center"> 
+    <button class="bg-gray-100 border border-color-gray rounded-xl text-center w-35 h-10 font-bold">HTML</button>
+<button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-35 h-10 font-bold">CSS</button>
+<button class="text=sm bg-gray-100 border border-color-gray rounded-xl text-center w-35 h-10 font-bold">JavaScript </button>
+<button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-35 h-10 font-bold">React.js</button>
+</div>
+<div class="m-8 flex flex-row gap-8 justify-center"> 
+    <button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-35 h-10 font-bold">Tailwind</button>
+<button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-35 h-10 font-bold">SQL</button>
+<button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-35 h-10 font-bold">python</button>
+<button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-35 h-10 font-bold">Power BI</button>
+</div>
+<div class="m-8 gap-8 flex flex-row justify-center">
+    <button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-35 h-10 font-bold">Microsoft Excel</button>
+    <button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-35 h-10 font-bold">Google sheet</button>
+</div>
+</div>
+<h1 class="text-center text-2xl font-bold text-black m-8">Additional skills and tools</h1>
+
+<!--smaller screens-->
+<div class="md:hidden flex flex-col">
+    <div class="flex flex-row m-8 gap-8 items-center justify-center">
+       <button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-45 h-10 font-bold">Vs code</button>
+    <button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-45 h-10 font-bold">Git</button>
+</div>
+<div class="flex flex-row m-8 gap-8 items-center justify-center">
+       <button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-45 h-10 font-bold">Responsive design</button>
+    <button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-45 h-10 font-bold">Github</button>
+</div>
+<div class="flex flex-row m-8 gap-8 items-center justify-center">
+       <button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-45 h-10 font-bold">EDA</button>
+    <button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-45 h-10 font-bold">Python library</button>
+</div>
+<div class="flex flex-row m-8 gap-8 items-center justify-center">
+       <button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-45 h-10 font-bold">Web accessibility</button>
+    <button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-45 h-10 font-bold">Jupyter</button>
+</div>
+</div>
+
+<!--larger screens-->
+<div class="hidden md:flex flex-col">
+<div class=" flex flex-row m-8 gap-8 items-center justify-center">
+       <button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-45 h-10 font-bold">Vs code</button>
+    <button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-45 h-10 font-bold">Git</button> 
+    <button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-45 h-10 font-bold">Github</button>  
+</div>
+<div class=" flex flex-row m-8 gap-8 items-center justify-center">
+       <button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-45 h-10 font-bold">Responsive design</button>
+    <button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-45 h-10 font-bold">Website accessibility</button>
+    <button class="text-sm bg-gray-100 border border-color-gray rounded-xl text-center w-45 h-10 font-bold">EDA</button>   
+</div>
+<div class=" flex flex-row mt-8 mx-8 gap-8 justify-center">
+    <button class="bg-gray-100 border border-color-gray rounded-xl text-center w-45 h-10 font-bold">Python library</button> 
+    <button class="bg-gray-100 border border-color-gray rounded-xl text-center w-45 h-10 font-bold">jupyter</button>  
+</div>
+</div>
+<div class="flex flex-col md:flex-row border justify-evenly items-center border-white bg-black my-8 mx-4 h-90 rounded-2xl" id="Resume">
+<div class="bg-white flex flex-col md:w-110 text-justify mx-4 my-4 rounded-xl h-50">
+    <h1 class="text-2xl text-black text-center font-bold">Open to New Opportunity </h1>
+    <p class="m-4 text-md text-black"> i am interested in joining a team where i can apply my data analytics and frontend development skills to solve problems and bring meaningful impact</p>
+</div>
+<div class="flex flex-col items-center md:flex-row  justify-evenly gap-8 m-4 h-50">
+    <a href="../asset/ATOBATELE MARCUS ADETOBA.pdf" download="MARCUSATOBATELE.pdf"><button class="bg-pink-600 text-white border h-10 w-30 rounded-lg text-center hover:bg-blue-400">RESUME</button></a>
+    <button class="bg-white w-35 h-10 rounded-lg text-black border text-center hover:bg-yellow-100">contact me</button>
+</div>
+</div>
+</section>
+<section class= "bg-gray-200 text-black items-center justify-center mt-4 mx-2 rounded-xl  overflow-hidden" id="project">
+    <div class="flex flex-col m-2">
+        <Button class="border w-30 h-10 text-center bg-pink-600 text-white rounded-lg" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+       02 My Project
+        </Button>
+        <h1 class="text-black font-extrabold text-xl mt-2 mx-2">DATA ANALYTICS</h1>
+    
+        <div class="flex flex-col w-full  md:flex-row items-center justify-center" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            <div class="flex flex-col items-center md:w-1/3 md:h-150 bg-pink-300">
+               <div class="md:h-150 m-2 bg-amber-200">
+                     <h2 class="text-black font-bold text-md m-2">
+            MANUFACTURING DOWNTIME PROJECT
+                 </h2>
+            <img src="../asset/LEGIT1.PNG" alt="" class="object-cover">
+            <p class="text-justify text-sm md:h-50">
+                This project involves analysing the raw data of a soda bottling plant which experienced several downtime over the month
+                due to two major reasons ;The operational and machine downtime. The operational downtime is caused by lack of technical knowledge or mistake of the operator. while the machine downtime is caused 
+                by sudden, unpredictable misbehaviour of the machines. The analysis highlighted notable keyfindings and insights from this raw data     
+            </p>
+               </div>
+            <a href="https://atobatelemarcus.github.io/downtime/"><button class=" mt-4 text-sm h-10 w-40 bg-pink-600 text-white rounded-xl hover:bg-red-500"> READ MORE ON GITHUB</button></a>  
+        </div>
+            <div class="flex flex-col md:ml-8  mt-4 md:w-1/3  items-center md:h-150 bg-pink-300">
+                <div class="md:h-150 m-2 bg-amber-200">
+                    <h2 class="font-bold text-md text-center">SUPERSTORE SALES</h2>
+                <img src="../asset/SUPERSTORE1.PNG" alt="superstore" class="object-cover">
+                   <p class="text-justify text-sm  mt-2 md:h-50">
+                    This project involves analysing the data of of a mega store.The aim of the project is to unveil key performance indicator (KPI)
+                    which influence the sales of products across the country.The analysis revealed the finacial state of the store the chart reveals the KPI 
+                    ,insight and recommendations were given
+                </p>
+                </div>
+                <a href="https://atobatelemarcus.github.io/superstore/"><button class=" mt-4 text-sm h-10 w-40 bg-pink-600 text-white rounded-lg items-center  hover:bg-red-500"> READ MORE ON GITHUB</button></a>
+            </div>
+            <div class="flex flex-col md:ml-8 mt-8 md:mt-2 md:w-1/3 items-center md:h-150 bg-pink-300">
+            <div class="md:h-150 m-2 bg-amber-200">
+                  <h2 class="font-bold text-md text-center">SUPPLY CHAIN</h2>  
+              <img src="../asset/COST ANALYSIS.PNG" alt="" class="mt-2 object-cover">
+               <p class="text-justify text-sm  mt-2 md:h-50">
+                The data analysis is of a supply chain of a production company with several sections namely; Production, stock & inventory and logistics
+                . The analysis was centered on unveilling the position of the company through several key indicators of the data; Net cost of production, revenue and the total profit acroos every sections
+                .Although each section has their peculiar driven key indicator to look out for.
+               </p>
+            </div>
+               <a href="https://atobatelemarcus.github.io/supplychain/"> <button class=" text-sm mt-4 h-10 w-40 bg-pink-600 text-white rounded-lg items-center  hover:bg-red-500"> READ MORE ON GITHUB</button></a>
+               
+
+                
+            </div>
+            </div>
+            <div class="flex flex-col mt-4 w-full">
+                <h1 class="text-black text-lg font-bold">WEB DEVELOPMENT PROJECT</h1>
+                <div class="flex flex-col items-center w-full md:flex-row gap-4 justify-evenly">
+                    <div class="flex flex-col justify-center md:w-1/3 md:h-150 bg-pink-200 items-center">
+                       <div class="md:h-150 m-2 bg-amber-200">
+                        <h1 class="text-black text-center font-bold">STUDENT PORTAL</h1>
+                        <img src="../asset/14C1.PNG" alt="" class="object-cover">
+                        <p class=" text-black text-justify text-md">
+                            This project is a simple school portal aimed at helping schools oversee the activities  of students
+                            and ensure academic services are rendered easily.
+                            The website has the following featured admin dashboard,m student dashboard , registration form and a login page
+                            ,the accessibility of each users to login was controlled by the use google firebase auth. This project was built with tailwinds,javascript and html
+                        </p>
+                       </div>
+                        <a href="https://atobatelemarcus.github.io/rod"><button class="w-20 h-10 mt-4 text-sm bg-pink-600 m-2 rounded-lg text-white hover:bg-red-500">View website</button></a>
+                    </div>
+
+                    <div class="md:w-1/3 flex flex-col justify-center items-center md:h-150 bg-pink-200">
+                        <div class="md:h-150 m-2 bg-amber-200">
+                            <h1 class="text-md font-bold">ENERGIZE BODY FITNESS</h1>
+                        <img src="../asset/ENRGIZE.PNG" alt="" class="object-cover">
+                        <p class="text-black text-justify text-md text-wrap
+                        ">
+                          Energize body fitness is a fitness website that provides users with the opportunity to book a session with a personal trainer
+                          Also it provides user with a free plan and affordable plan to choose from, the website was built with html, css and javascript.
+                        </p>
+                        </div>
+                         <a href="https://atobatelemarcus.github.io/energiz/"><button class=" mt-4 text-sm w-20 h-10 bg-pink-600 m-2 rounded-lg text-white hover:bg-red-500">View website</button></a>
+                    </div>
+                    <div class="md:w-1/3 justify-center flex flex-col items-center md:h-150 bg-pink-200">
+                        <div class="md:h-150 m-2 bg-amber-200">
+                            <h1 class="text-md font-bold"> FOG CATERING </h1>
+                        <img src="../asset/fog1.PNG" alt="">
+                        <p class="text-black text-justify ">
+                            A catering services website built for a clients, the design of this site was quite simple with proper user interface which makes navigation easier
+                            .This website was built with React.js and Tailwind Css, deployed on Github with a custom business domain name
+                        </p>
+                        </div> 
+                        <a href="https://fogcateringservices.com.ng"><button class=" mt-4 text-sm w-20 h-10 bg-pink-600 m-2 rounded-lg text-white hover:bg-red-500">View website</button></a>
+                    </div>
+                    </div>
+                    <div class="items-center justify-center flex flex-col bg-pink-200 m-2 rounded-xl w-full">
+                      <form id="contact-form" class="max-w-md w-full bg-gray-200 rounded-2xl mt-4 mr-2  shadow-2xl items-center justify-center md:justify-center">
+                        <h2 class="text-lg text-pink-600 text-center"> CONTACT US</h2>
+                        <div class="items-center justify-center flex flex-col w-full">
+                            <input type="text" name="name" placeholder="your name"  required class="w-full md:w-70 h-10  text-center py-4 items-center justify-center m-4 rounded-lg border border-pink-400 focus:outline-none focus:ring-2 focus:ring-black">
+                         <input type="text" name="phone" placeholder="your phone number"  required class="w-full md:w-70 mx-4 h-10 text-center py-4 items-center justify-center m-4 rounded-lg border border-pink-400 focus:outline-none focus:ring-2 focus:ring-black">
+                            <input type="mail" name="mail" placeholder="Email"  required class="w-full md:w-70 h-10 text-center py-4 justify-center m-4 rounded-lg border border-pink-400 focus:outline-none focus:ring-2 focus:ring-black">
+                        <textarea name="message" placeholder="Enter your message" required class="w-full md:w-70 h-35  px-3 py-4 focus:outline-none focus:ring-2 focus:ring-black border border-pink-400 rounded-2xl m-4"></textarea>
+                        <input type="submit" class="bg-pink-500 w-30 h-10 rounded-xl mb-2 hover:bg-red-500 text-white">
+                    </div>
+                        </form>
+                        <div>
+                   
+
+
+                </div>
+            </div>
+    </div>   
+</section>
+<footer class="text-white bg-black w-full flex flex-col">
+ <div class="text-white flex  flex-row m-2 items-center justify-center">
+<a href="https://wa.me/2347044592369"><img src="../asset/whatsapp (1).png" alt="" class="w-10 h-10"></a>
+<button  class="w-10 h-10 rounded-full bg-white"><a href="https://Atobatelemarcus.github.io"><img src="../asset/github.png" alt="" class="w-10 h-10"></a></button>
+<a href="https://www.linkedin.com/in/atobatele-marcus"><img src="../asset/linkedin.png" alt="linkedin" class="w-10 h-10"></a>
+ </div>
+ <div class="flex flex-col">
+    <p class="textt-white text-center">+2347044592369, +2349019643873</p>
+  <p class="text-white text-sm font-bold text-center">ADDRESS: House of assembly road, Umuahia, Abia state.</p>
+ </div>
+
+</footer>
+
+    </div>
+    <script src="portfolio.js"></script>
+</body>
+</html>
